@@ -1,5 +1,9 @@
-<div>
-    <button (click)="onClick()"
+<div class="buttons">
+    <button class="button is-primary is-light"
+     (click)="onClick()"
 >Fetch New Photo</button>
 </div>
-<img  [src]="photoUrl">
+<figure class="image is-128x128">
+<img class="is-rounded"
+ [src]="photoUrl">
+</figure>
